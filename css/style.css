@@ -1493,3 +1493,60 @@ color: var(--title); margin-bottom: 30px;}
 }
  
 /* News & Announcement page css end */
+
+
+
+/* anurag css*** */
+
+
+.cust-container {
+    max-width: 1180px;
+}
+
+.board-director-sec {
+    padding-bottom: 70px;
+}
+
+.board-director-sec .board-member-box {
+    background: #F8F8F8;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.board-director-sec .board-member-box .member-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.board-director-sec .board-member-box .member-text {
+    padding: 16px 24px;
+    background: #F8F8F8;
+    position: relative;
+}
+
+.board-director-sec .board-member-box .member-img {
+    max-height: 450px;
+}
+
+.board-director-sec .board-member-box h6 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+.board-director-sec .board-member-box p {
+    color: var(--red-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+
+.py-80 {
+    padding: 80px 0;
+}
