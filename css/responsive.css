@@ -253,6 +253,8 @@ h2 {
     padding: 10px 25px;
 }
 
+.testimonials-wrapper {gap: 40px;}
+
 
 }
 
@@ -301,6 +303,35 @@ h1 {
         max-width: 122px;
         height: auto;
     }
+
+.blog-image { width: 320px;}
+.blog-item .blog-content{ padding: 20px;}
+.media-cards .media-title {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.media-label {
+    margin-bottom: 10px;
+}
+
+.tags { padding: 10px;}
+.tags span { font-size: 14px; line-height: 20px;}
+.tags { gap: 5px;}
+.announcement {
+    padding: 20px 20px;
+}
+
+.media-cards {
+    min-height: initial;
+}
+
+.media-coverage-section [class*='col-']:not(:last-child){ margin-bottom: 20px;}
+
+.blog-item .d-flex {flex-direction: column;}
+.blog-image {width: 100%;}
+.testimonial-card .card-content-lower { padding: 20px;}
+.testimonial-card .card-content-lower h4 {font-size: 20px;}
 
 }
 
@@ -443,7 +474,20 @@ h2.h-h2, h2 {
     margin-bottom: 5px;
 }
 
+.testimonials-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+}
 
+.py-50 { padding: 25px 0px;}
+.sec-blog-articles .block-header{ margin-bottom: 25px;}
+.media-coverage-section{ padding: 25px 0px;}
+.media-swiper .swiper-slide {margin-bottom: 30px;}
+.view-all-wrapper .btn-theme { min-width: 130px;}
+.impact-card img {
+    min-height: 200px;
+    object-fit: cover;
+}
 
 }
     
