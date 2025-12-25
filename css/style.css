@@ -809,7 +809,6 @@ body.home-page .sticky .navbar-nav li.active .nav-link {
 }
 
 /* Raju css start */
-.container{ max-width: 1480px;}
 .py-100{ padding: 100px 0px;}
 .mb-30{ margin-bottom: 30px;}
 .mb-68{ margin-bottom: 68px;}
@@ -1260,7 +1259,7 @@ color: var(--title); margin-bottom: 30px;}
     border-radius: 4px;
 }
  
-.card-content {
+.impact-card .card-content {
   padding: 32px;
 }
  
