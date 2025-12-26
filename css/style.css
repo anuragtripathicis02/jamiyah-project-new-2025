@@ -1275,7 +1275,7 @@ color: var(--title); margin-bottom: 30px;}
  
 .card-content .news-date b { color: var(--title);}
  
-.card-content h4{ font-size: 20px; line-height: 16px; margin-bottom: 20px;}
+.impact-card .card-content h4{ font-size: 20px; line-height: 16px; margin-bottom: 20px;}
 .button-link {
     font-weight: 700;
     font-size: 16px;
@@ -1551,6 +1551,7 @@ color: var(--title); margin-bottom: 30px;}
     padding: 80px 0;
 }
 
+<<<<<<< HEAD
 
 .services-slider img {
     width: 100%;
@@ -1718,3 +1719,114 @@ color: var(--title); margin-bottom: 30px;}
     color: #73788C;
 }
 
+=======
+/* Impact page css */
+.light-gray{ background-color: #F5F5F7;}
+.sec-banner-main{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    padding: 100px 0px;
+    display: flex;
+    color: var(--bs-white);
+    flex-direction: column;
+    justify-content: center;
+    min-height: 568px;
+}
+.sec-banner-main .container{ position: relative; z-index: 1;}
+.sec-banner-main h2{ color: var(--bs-white) ;}
+.sec-banner-main p{ max-width: 514px;}
+
+.overlay-green {
+    background: linear-gradient(270deg, rgba(3, 34, 27, 0) 0%, rgba(3, 34, 27, 0.85) 37.7%, #03221B 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+
+.imp-card {
+    background: var(--bs-white);
+    text-align: center;
+    padding: 35px;
+    min-height: 338px;
+    display: flex;
+    height: 100%;
+    gap:22px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imp-icon {
+    min-height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imp-card  p {
+    margin-bottom: 0;
+    font-family: var(--font-family-manrope);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.sec-contribute {
+    padding: 85px 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center left;
+    overflow: hidden;
+    background-size: cover;
+}
+.sec-contribute .container{ position: relative; z-index: 1;}
+.contribute-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+}
+.contribute-image img {
+    display: block;
+    height: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+.sec-banner-main { min-height: 400px;}
+.imp-card{ min-height: inherit;}
+}
+@media screen and (max-width: 991px) {
+.impact-cards-section [class*='col-']:not(:last-child){ margin-bottom: 25px;}
+.sec-contribute {padding: 30px 0px;}   
+}
+@media screen and (max-width: 767px) {
+.sec-banner-main {
+    min-height: inherit;
+    padding: 30px 0px;
+}
+.imp-card {
+    padding: 15px;
+}
+
+.imp-icon {
+    min-height: inherit;
+}
+
+.imp-icon img {
+    width: 60px;
+}
+
+.imp-card p {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+}
+/* Impact page end */
+>>>>>>> d9a2689c4edccb4ccea6347a675ca300df9c93bb
