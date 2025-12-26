@@ -1797,3 +1797,126 @@ color: var(--title); margin-bottom: 30px;}
 
 
 /* Impact page end */
+
+
+.sec-banner-main.banner-islamic-center {
+    background-position: right;
+    background-size: auto;
+}
+
+.overlay-green-white {
+    background: linear-gradient(270deg, rgba(17, 34, 34, 0) 13.5%, rgba(18, 47, 42, 0.5) 31.26%, rgba(17, 34, 34, 0.94902) 75.6%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+
+.contact-email-sec {
+    padding: 183px 0 50px;
+}
+
+.list-contact-email .contact-list:not(:first-child) {padding-left: 60px;margin-left: 60px;border-left: 1px solid #D9D9D9;}
+
+.list-contact-email .contact-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.list-contact-email .contact-list .link-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #292929;
+}
+
+.list-contact-email .contact-list h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+
+.list-contact-email .contact-list .contcat-icons {
+    border: 1px solid #FDF1E6;
+    width: 66px;
+    height: 66px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(219 182 127 / 40%);
+}
+
+.list-contact-email .contact-list .contcat-icons svg {height: 32px;width: 30px;}
+
+.contact-us-sec {
+    padding-bottom: 150px;
+}
+
+.contact-us-sec .subtitle {
+    color: var(--red-color);
+    margin-bottom: 4px;
+}
+
+.contact-us-sec .map-box iframe {
+    width: 100%;
+    display: block;
+}
+
+
+
+.helping-hand-sec {
+    padding-top: 42px;
+}
+
+.helping-hand-sec .subtitle {
+    color: #912528;
+}
+
+
+.green-bg {
+    background: #14322A;
+}
+
+.helping-hand-sec .helping-box img {
+    width: 100%;
+    display: block;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    min-height: 300px;
+}
+
+.helping-hand-sec .helping-box  .text-box {
+    padding: 40px;
+}
+
+.helping-hand-sec .helping-box .text-box h6 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.helping-hand-sec .helping-box .text-box p {
+    color: #D8D8D8;
+    max-width: 450px;
+    margin: 0 auto 30px;
+}
+
+.helping-hand-sec .btn-theme {
+    padding: 12px 22px;
+}
+
+.red-bg {
+    background: #A92F11;
+}
