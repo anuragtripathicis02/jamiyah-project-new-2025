@@ -1798,6 +1798,7 @@ color: var(--title); margin-bottom: 30px;}
 
 /* Impact page end */
 
+<<<<<<< HEAD
 
 .sec-banner-main.banner-islamic-center {
     background-position: right;
@@ -1920,3 +1921,187 @@ color: var(--title); margin-bottom: 30px;}
 .red-bg {
     background: #A92F11;
 }
+=======
+/* Get-Inolved page css */
+.d-flex.gap-30 {
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.overlay-red {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(270deg, rgba(169, 47, 17, 0) 0%, rgba(169, 47, 17, 0.75) 37.7%, #A92F11 100%);
+}
+
+.donate-form {
+    display: flex;
+    gap: 10px;
+}
+
+.donate-tabs .nav-link {
+    font-family: var(--font-family-manrope);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: var(--title);
+    border: 0;
+    padding: 18px 24px;
+    background-color: transparent;
+}
+.donate-tabs .nav-link.active{ background-color: var(--yellow); color: var(--bs-white);}
+.donate-tabs {
+    padding: 12px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bs-white);
+}
+
+
+.amount-box {
+    position: relative;
+    max-width: 266px;
+}
+
+.amount-box span {
+    font-family:var(--font-family-manrope);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: var(--title);
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+    margin-top: -6px;
+}
+
+
+.donate-inputs {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.select-box {
+    flex: 1;
+}
+.select-box select {
+    height: 75px;
+    border: 0;
+    font-size: 25px;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    background-image: url(../images/select-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+}
+.select-box select::-ms-expand {
+    display: none;
+}
+.select-box select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    padding-right: 50px;
+}
+.select-box select option{ color: var(--title);}
+
+/*** component ***/
+.input-number {
+  position: relative;
+}
+.input-number label {
+  position: absolute;
+  left: 20px;
+  font-size: 12px;
+  top: 8px;
+}
+
+.input-number input {
+    width: 100%;
+    height: 75px;
+    padding: 10px 50px 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+}
+.input-number button {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 15px;
+    border: 0;
+    cursor: pointer;
+    background: #E3E3E3;
+}
+
+.input-number button.input-number-increment { top: 10px;}
+.input-number button.input-number-decrement {bottom: 10px;}
+
+
+
+.input-number button.input-number-decrement svg {
+  transform: rotate(180deg);
+}
+
+/* Chrome, Safari, Edge, Opera */
+.input-number input::-webkit-outer-spin-button,
+.input-number input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input-number input[type="number"] {
+  -moz-appearance: textfield;
+}
+.donate-form .btn-theme {
+    font-size: 24px;
+}
+
+.btn-green:hover{ color: var(--bs-white);}
+
+@media screen and (max-width: 1340px) {
+.donate-tabs .nav-link {
+    font-size: 18px;
+    line-height: 13px;
+    padding: 12px 12px;
+}
+.select-box select {font-size: 20px;}
+}
+@media screen and (max-width: 1199px) {
+.donate-form {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 767px) {
+.donate-inputs {flex-direction: column;}
+.amount-box { max-width: 100%;}
+.d-flex.gap-30 {flex-direction: column; gap: 10px; margin-bottom: 30px;}
+.input-number input{ height: 55px;}
+.input-number button.input-number-increment {top: 2px;}
+.input-number button.input-number-decrement { bottom: 2px;}
+.input-number button{ right: 2px;}
+.select-box select {
+    height: 55px;
+    padding: 14px;
+    background-size: 15px;
+    background-position: center right 10px;
+}
+}
+>>>>>>> c374a8d2404ece59a294abc43d54af0f7597d919
