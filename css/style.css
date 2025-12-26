@@ -1795,35 +1795,5 @@ color: var(--title); margin-bottom: 30px;}
     height: 100%;
 }
 
-@media screen and (max-width: 1199px) {
-.sec-banner-main { min-height: 400px;}
-.imp-card{ min-height: inherit;}
-}
-@media screen and (max-width: 991px) {
-.impact-cards-section [class*='col-']:not(:last-child){ margin-bottom: 25px;}
-.sec-contribute {padding: 30px 0px;}   
-}
-@media screen and (max-width: 767px) {
-.sec-banner-main {
-    min-height: inherit;
-    padding: 30px 0px;
-}
-.imp-card {
-    padding: 15px;
-}
 
-.imp-icon {
-    min-height: inherit;
-}
-
-.imp-icon img {
-    width: 60px;
-}
-
-.imp-card p {
-    font-size: 18px;
-    line-height: 23px;
-}
-
-}
 /* Impact page end */

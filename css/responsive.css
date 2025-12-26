@@ -350,6 +350,10 @@ h2 {
 }
 
 
+.sec-banner-main { min-height: 400px;}
+.imp-card{ min-height: inherit;}
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -451,6 +455,10 @@ h1 {
     padding-bottom: 40px;
 }
 
+
+
+.impact-cards-section [class*='col-']:not(:last-child){ margin-bottom: 25px;}
+.sec-contribute {padding: 30px 0px;}   
 
 
 }
@@ -659,6 +667,27 @@ h2.h-h2, h2 {
     margin-bottom: 10px;
 }
 
+
+.sec-banner-main {
+    min-height: inherit;
+    padding: 30px 0px;
+}
+.imp-card {
+    padding: 15px;
+}
+
+.imp-icon {
+    min-height: inherit;
+}
+
+.imp-icon img {
+    width: 60px;
+}
+
+.imp-card p {
+    font-size: 18px;
+    line-height: 23px;
+}
 
 
 }
