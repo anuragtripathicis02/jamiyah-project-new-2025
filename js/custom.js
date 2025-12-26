@@ -26,6 +26,42 @@ var swiper = new Swiper(".banner-slider", {
 });
 
 
+
+/********************** */
+
+var swiper = new Swiper(".services-slider", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true, 
+  pagination: {
+    el: ".swiper-pagination",
+     clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    clickable: true,
+  },
+});
+
+
+/****************************/
+
+
+
+var swiper = new Swiper(".islamic-center-slider", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    clickable: true,
+  },
+});
+
+
+
 /********************** */
 
 

@@ -122,6 +122,26 @@ h2.h-h2 {
     padding: 10px;
 }
 
+.about-banner {
+    padding: 60px 0 185px;
+}
+
+
+.vision-box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.global-network-sec {
+    margin: -100px 0 75px;
+    background-position: left top;
+}
+
+
+.islamic-centre-sec .islamic-box {
+    padding: 20px;
+}
+
 }
 
 
@@ -156,7 +176,7 @@ h2.h-h2 {
 .navbar-nav .nav-link{ font-size: 16px;color: #fff;text-align: left;}
 .header .border-bottom {border-bottom: 1px solid #3f3f3f !important;}
 .logo{max-width: 160px; padding-right: 10px;}
-.main {margin-top: 81px;}
+/* .main {margin-top: 81px;} */
 
 /* header.header {
     padding: 15px 0;
@@ -256,6 +276,80 @@ h2 {
 .testimonials-wrapper {gap: 40px;}
 
 
+.vision-box {
+    padding: 15px;
+}
+
+.vision-box p {
+    margin: 0;
+}
+
+.board-director-sec .board-member-box .member-text {
+    padding: 15px;
+}
+
+
+
+.about-banner {
+    padding: 60px 0;
+}
+
+.vision-mission-sec {
+    bottom: 50px;
+}
+
+.inner-vision-mission {
+    flex-wrap: wrap;
+}
+
+.vision-box {
+    width: 100%;
+    padding: 30px;
+}
+
+.vision-box:nth-child(1) {
+    width: 100%;
+}
+
+.global-network-sec {
+    margin: 0;
+}
+
+
+.py-80 {
+    padding: 50px 0;
+}
+
+.services-slider .service-box-banner .text-box {
+    padding: 0 30px;
+}
+
+.text-service-box .service-box {
+    font-size: 16px;
+}
+
+.text-service-box .service-box .arrow svg {
+    width: 11px;
+}
+
+
+.islamic-centre-sec {
+    padding: 40px 0 60px;
+}
+
+.islamic-centre-sec .islamic-slider {
+    margin-top: 25px;
+}
+
+.islamic-centre-sec .islamic-slider .islamic-center-box {
+    max-width: 80%;
+}
+
+.islamic-centre-sec .islamic-slider .service-btn {
+    max-width: 86%;
+}
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -332,6 +426,32 @@ h1 {
 .blog-image {width: 100%;}
 .testimonial-card .card-content-lower { padding: 20px;}
 .testimonial-card .card-content-lower h4 {font-size: 20px;}
+
+
+
+.network-img {
+    margin: 0;
+}
+
+.network-img img {
+    width: 100%;
+}
+
+.global-network-sec {
+    background-size: 75%;
+    background-position: left bottom  24px;
+    margin-bottom: 50px;
+}
+
+.global-network-sec .row {
+    flex-direction: column-reverse;
+}
+
+.board-director-sec {
+    padding-bottom: 40px;
+}
+
+
 
 }
 
@@ -464,9 +584,6 @@ h2.h-h2, h2 {
     object-fit: cover;
 }
 
-
-
-
 .subtitle {
     gap: 6px;
     font-size: 13px;
@@ -488,6 +605,61 @@ h2.h-h2, h2 {
     min-height: 200px;
     object-fit: cover;
 }
+
+
+.about-banner {
+    background-size: cover;
+    background-position: left;
+}
+
+.vision-box {
+    padding: 25px 15px;
+}
+
+.global-network-sec {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.services-slider img {
+    min-height: 400px;
+    object-fit: cover;
+}
+
+.services-slider .service-box-banner .text-box p {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.service-btn .swiper-button-prev, .service-btn .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+}
+
+.services-slider .service-box-banner .text-box {
+    padding: 0 40px;
+}
+
+
+.islamic-centre-sec .islamic-slider .islamic-center-box img {
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.islamic-centre-sec:before {
+    height: 80%;
+}
+
+.islamic-centre-sec .islamic-box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
 
 }
     

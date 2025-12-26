@@ -1550,3 +1550,171 @@ color: var(--title); margin-bottom: 30px;}
 .py-80 {
     padding: 80px 0;
 }
+
+
+.services-slider img {
+    width: 100%;
+    display: block;
+}
+
+.services-slider .service-box-banner:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    z-index: 0;
+}
+
+.services-slider .service-box-banner .text-box {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    color: var(--white);
+    max-width: 745px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.services-slider .service-box-banner {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.services-banner-slider .swiper-pagination {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 20px !important;
+}
+
+.service-btn .swiper-button-prev:after, .service-btn .swiper-button-next:after {
+    display: none;
+}
+
+.service-btn .swiper-button-prev, .service-btn .swiper-button-next {
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background: var(--white);
+    border-radius: 100px;
+    padding: 10px;
+    opacity: 1;
+}
+
+.text-service-box .service-box {
+    padding: 12px 0;
+    border-bottom: 1px solid #133A37;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0;
+    font-family: var(--font-family-manrope);
+}
+
+.text-service-box .service-box .arrow {
+    width: 20px;
+}
+
+.text-service-box .service-box .arrow svg {
+    width: 16px;
+}
+
+.text-service-box .service-box .text-count {
+    width: calc(100% - 36px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-service-box .service-box .text-count .count {
+    color: var(--yellow);
+    width: 40px;
+}
+
+.text-service-box .service-box .text-count  .text {
+    width: calc(100% - 40px);
+}
+
+.services-slider .service-box-banner h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.islamic-centre-sec {
+    padding: 74px 0 100px;
+    position: relative;
+}
+
+.islamic-centre-sec:before {
+    content: "";
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    background: var(--yellow);
+}
+
+.islamic-centre-sec .islamic-slider {
+    margin-top: 78px;
+    position: relative;
+    background: url(../images/prayer-hall-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.islamic-centre-sec .islamic-slider .islamic-center-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.islamic-centre-sec .islamic-slider .service-btn {
+    max-width: 967px;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+
+.islamic-centre-sec .subtitle {
+    color: var(--yellow);
+}
+
+.islamic-centre-sec .islamic-box {
+    position: relative;
+    box-shadow: 0px 11.15px 51.55px 0px #00000009;
+    background: var(--white);
+    padding: 32px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.islamic-centre-sec .islamic-box .icons {
+    display: block;
+    height: 80px;
+}
+
+.islamic-centre-sec .islamic-box h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.islamic-centre-sec .islamic-box  p {
+    color: #73788C;
+}
+
